@@ -3,9 +3,17 @@
 #include<vector>
 using namespace std;
 #define mod 1000000007
+#define ll long long
+#define ld long double
+#define pb push_back
 
-using ll = long long;
-using ld  = long double;
+ll gcd(ll a, ll b) {
+    return b == 0 ? a : gcd(b, a % b);
+}
+
+ll lcm(ll a, ll b) {
+    return (a * b) / gcd(a, b);
+}
 
 template <typename T>
 void print(const T& value) {cout << value <<"\n";}

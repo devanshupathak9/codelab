@@ -16,14 +16,28 @@ ll lcm(ll a, ll b) {
 }
 
 template <typename T>
-void print(const T& value) {cout << value <<"\n";}
+void print(const T& value) {
+    cout << value <<"\n";
+}
+
+template <typename T>
+void print_vector(vector<T> &value) {
+    for(auto val: value) {
+        cout << val << " ";
+    }
+    print("");
+}
 
 
-void solve() {
-    return;
+class Solution {
+public: 
+    void solve() {
+        return;
+    }
 }
 
 int main() {
-    solve();
+    Solution sol;
+    sol.solve();
     return 0;
 }

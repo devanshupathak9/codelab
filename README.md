@@ -19,20 +19,20 @@ Welcome to my CodeLab repository! Here you'll find my curated solutions to a wid
 | Trees                  | [Trees](https://github.com/devanshupathak9/CodeLab/tree/main/Data%20Structure%20and%20Algorithms/Trees) |
 
 <hr>
+<hr>
 
 # LeetCode Problems (Miscellaneous)
-| Leetcode Number | Type         | Name                                             | Description                                                    |
-|-----------------|--------------|--------------------------------------------------|----------------------------------------------------------------|
-| 1          | Array/ Hash Table   | Two Sum                  | [Return Indices of the two numbers such that they add up to target.](https://github.com/devanshupathak9/CodeLab/tree/main/Data%20Structure%20and%20Algorithms/Array/Two%20Sum) |
-| 200             | DFS/BFS      | Number of Islands                                | [Count the number of islands in a 2D grid.](https://github.com/devanshupathak9/CodeLab/blob/main/Leetcode/Leetcode_200/main.cpp) |
-| 2099            | Heap/Sorting | Find Subsequence of Length K With the Largest Sum| [Find a subsequence of length k with the largest sum.](./Leetcode/leetcode_2099.cpp) |
-| 2410            | Heap/Sorting | Find Subsequence of Length K With the Largest Sum| [Find a subsequence of length k with the largest sum.](https://github.com/devanshupathak9/CodeLab/blob/main/Leetcode/Leetcode_2410/main.cpp) |
-| 2918            | Heap/Sorting | Find Subsequence of Length K With the Largest Sum| [Find a subsequence of length k with the largest sum.](https://github.com/devanshupathak9/CodeLab/blob/main/Leetcode/Leetcode_2918/main.cpp) |
-| 3160            | Heap/Sorting | Find Subsequence of Length K With the Largest Sum| [Find a subsequence of length k with the largest sum.](https://github.com/devanshupathak9/CodeLab/blob/main/Leetcode/Leetcode_3160/main.cpp) |
-| 1014            | Array        | Best Sightseeing Pair                            | [Find the pair of sightseeing spots with the maximum score.](https://github.com/devanshupathak9/CodeLab/blob/main/Leetcode/Leetcode_1014/main.cpp) |
-| 1404          | Bit Manipulation         | Number of Steps to Reduce a Number in Binary Representation to One | [Counting the number of operations using bit manipulation techniques.](./Data%20Structure%20and%20Algorithms/Bit%20manipulation/leetcode_1404.cpp) |
 
-| Number          | Type         | Name                                             | [Description.] (path) |
-
-
-
+| Number | Type | Name |
+| :--- | :--- | :--- |
+| 1 | Array/ Hash Table | [Two Sum](./Data%20Structure%20and%20Algorithms/Array/Two%20Sum) |
+| 200 | DFS/BFS | [Number of Islands](./Leetcode/Leetcode_200/main.cpp) |
+| 2099 | Heap/Sorting | [Find Subsequence of Length K With the Largest Sum](./Leetcode/leetcode_2099.cpp) |
+| 2410 | Heap/Sorting | [Maximum Matching of Players With Trainers](./Leetcode/Leetcode_2410/main.cpp) |
+| 2918 | Heap/Sorting | [Minimum Equal Sum of Two Arrays After Replacing Zeros](./Leetcode/Leetcode_2918/main.cpp) |
+| 3160 | Heap/Sorting | [Find the Number of Distinct Colors Among the Balls](./Leetcode/Leetcode_3160/main.cpp) |
+| 1014 | Array | [Best Sightseeing Pair](./Leetcode/Leetcode_1014/main.cpp) |
+| 1404 | Bit Manipulation | [Number of Steps to Reduce a Number in Binary Representation to One](./Data%20Structure%20and%20Algorithms/Bit%20manipulation/leetcode_1404.cpp) |
+| 3488 | Array, Hash Table, Binary Search | [Closest Equal Element Queries](./leetcode/leetcode_3488.cpp) |
+| 2515 | Array, String | [Shortest Distance to Target String in a Circular Array](./leetcode/leetcode_2515.cpp) |
+| number | type | [name](path) |

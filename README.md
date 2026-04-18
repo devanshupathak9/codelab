@@ -35,4 +35,6 @@ Welcome to my CodeLab repository! Here you'll find my curated solutions to a wid
 | 1404 | Bit Manipulation | [Number of Steps to Reduce a Number in Binary Representation to One](./Data%20Structure%20and%20Algorithms/Bit%20manipulation/leetcode_1404.cpp) |
 | 3488 | Array, Hash Table, Binary Search | [Closest Equal Element Queries](./leetcode/leetcode_3488.cpp) |
 | 2515 | Array, String | [Shortest Distance to Target String in a Circular Array](./leetcode/leetcode_2515.cpp) |
+| 3761 | Array, Hash Table | [Minimum Absolute Distance Between Mirror Pairs](./leetcode/leetcode_3761.cpp) |
+| 3783 | Math | [Mirror Distance of an Integer](./leetcode/leetcode_3783.cpp) |
 | number | type | [name](path) |

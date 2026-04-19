@@ -37,4 +37,5 @@ Welcome to my CodeLab repository! Here you'll find my curated solutions to a wid
 | 2515 | Array, String | [Shortest Distance to Target String in a Circular Array](./leetcode/leetcode_2515.cpp) |
 | 3761 | Array, Hash Table | [Minimum Absolute Distance Between Mirror Pairs](./leetcode/leetcode_3761.cpp) |
 | 3783 | Math | [Mirror Distance of an Integer](./leetcode/leetcode_3783.cpp) |
+| 1855 | Array, Binary Search | [Maximum Distance Between a Pair of Values](./leetcode/leetcode_1855.cpp) |
 | number | type | [name](path) |

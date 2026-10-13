@@ -8,30 +8,34 @@
 // Every close bracket has a corresponding open bracket of the same type.
 // Return true if s is a valid string, and false otherwise.
 
+// Example 1:
+// Input: s = "[]"
+// Output: true
 
 #include <iostream>
 #include <stack>
+#include <unordered_map>
 using namespace std;
-
 
 class Solution {
 private:
-    unordered_map<char, char> umap = {
-        {'(', ')'},
-        {'{', '}'},
-        {'[', ']'}
+    unordered_map<char, char> umap {
+        {')', '('},
+        {']', '['},
+        {'}', '{'},
     };
 public:
     bool isValid(string s) {
-        int n = s.size();
         stack<char> stck;
-        for (char ch: s) {
-            if (umap.find(ch) != umap.end()) stck.push(ch);
+        for (int i = 0; i < s.size(); i++) {
+            char ch = s[i];
+            if (ch =='(' || ch=='{' || ch =='[') {
+                stck.push(ch);
+            }
             else {
-                if (!stck.size()) return false;
-                char top = stck.top();
-                if (umap[top] != ch) return false;
-                stck.pop();
+                if (stck.empty()) return false;
+                char top = stck.top(); stck.pop();
+                if (umap[ch] != top) return false;
             }
         }
         if (stck.size()) return false;
@@ -40,8 +44,8 @@ public:
 };
 
 int main() {
-    string s = "([{}])(";
     Solution sol;
+    string s = "([{}])";
     bool ans = sol.isValid(s);
     cout << ans << "\n";
     return 0;
